@@ -1,6 +1,8 @@
-package by.flameksandr.tasklist.web.dto.auth;
+package by.flameksandr.tasklist.service.impl;
 
 import by.flameksandr.tasklist.service.AuthService;
+import by.flameksandr.tasklist.web.dto.auth.JwtRequest;
+import by.flameksandr.tasklist.web.dto.auth.JwtResponse;
 
 public class AuthServiceImpl implements AuthService {
     @Override

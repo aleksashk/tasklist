@@ -1,12 +1,13 @@
-package by.flameksandr.tasklist.service;
+package by.flameksandr.tasklist.service.impl;
 
 import by.flameksandr.tasklist.domain.trask.Task;
+import by.flameksandr.tasklist.service.TaskService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-public class TaskServiceImpl implements TaskService{
+public class TaskServiceImpl implements TaskService {
     @Override
     public Task getById(Long id) {
         return null;

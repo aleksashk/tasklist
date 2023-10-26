@@ -1,6 +1,7 @@
-package by.flameksandr.tasklist.service;
+package by.flameksandr.tasklist.service.impl;
 
 import by.flameksandr.tasklist.domain.user.User;
+import by.flameksandr.tasklist.service.UserService;
 import org.springframework.stereotype.Service;
 
 @Service
