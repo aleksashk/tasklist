@@ -99,7 +99,7 @@ public class JwtTokenProvider {
                 .toString();
     }
 
-    private boolean validateToken(String token) {
+    public boolean validateToken(String token) {
         Jws<Claims> claims = Jwts
                 .parserBuilder()
                 .setSigningKey(key)
