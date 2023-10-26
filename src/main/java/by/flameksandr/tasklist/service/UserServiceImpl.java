@@ -1,7 +1,9 @@
 package by.flameksandr.tasklist.service;
 
 import by.flameksandr.tasklist.domain.user.User;
+import org.springframework.stereotype.Service;
 
+@Service
 public class UserServiceImpl implements UserService {
     @Override
     public User getById(Long id) {
