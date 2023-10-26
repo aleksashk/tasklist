@@ -17,6 +17,7 @@
         <java.version>17</java.version>
         <lombok.version>1.18.24</lombok.version>
         <postgres.version>42.5.1</postgres.version>
+        <mapstruct.version>1.5.3.Final</mapstruct.version>
     </properties>
     <dependencies>
         <dependency>
@@ -46,6 +47,18 @@
             <artifactId>lombok</artifactId>
             <version>${lombok.version}</version>
             <optional>true</optional>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mapstruct</groupId>
+            <artifactId>mapstruct</artifactId>
+            <version>${mapstruct.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mapstruct</groupId>
+            <artifactId>mapstruct-processor</artifactId>
+            <version>${mapstruct.version}</version>
         </dependency>
 
         <dependency>
